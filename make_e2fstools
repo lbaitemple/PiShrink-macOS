@@ -35,7 +35,7 @@ mkdir "$PACKAGES"
 mkdir "$TARGET"
 mkdir "$CMPL"
 
-download https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.44.0/e2fsprogs-1.44.0.tar.gz
+download https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.46.5/e2fsprogs-1.46.5.tar.gz
 cd e2fs*
 ./configure --prefix "$TARGET" --disable-nls
 make
@@ -43,7 +43,7 @@ cp -a e2fsck/e2fsck "$BASE"
 cp -a resize/resize2fs "$BASE"
 cp -a misc/tune2fs "$BASE"
 
-download https://ftp.gnu.org/gnu/coreutils/coreutils-8.29.tar.xz
+download https://ftp.gnu.org/gnu/coreutils/coreutils-9.1.tar.xz
 cd core*
 ./configure --prefix "$TARGET" --disable-nls
 make
