@@ -85,7 +85,6 @@ sleep 1
 
 #Truncate the file
 endresult=$(($newpartend * 512))
-endresult=$(($endresult + 1))
 truncate -s $endresult "$img"
 aftersize=$(ls -lh "$img" | tr -s " " | cut -d " " -f 5)
 
