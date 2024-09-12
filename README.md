@@ -1,7 +1,7 @@
 # PiShrink-macOS #
 This is a port of PiShrink bash script for Linux to run under macOS.
 
-PiShrink [https://github.com/Drewsif/PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrinks a pi image. This will make putting the image back onto the SD card faster and the shrunk images will compress better.
+PiShrink [https://github.com/Drewsif/PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrinks a pi image. This will make putting the image back onto the SD card faster and the shrunk images will compress better. Also, for Mac version, we are porting the [https://github.com/lisanet/PiShrink-macOS](https://github.com/lisanet/PiShrink-macOS), but place two download files in the release so we do not have a broken link.
 
 Besides the original script it uses a few utils for the ext2/3/4 filesystem. All of these tools can be easily build by running the provided helper scripts in this repository. For mor information see below.
 
