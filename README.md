@@ -20,7 +20,7 @@ Since you are using a RaspberryPi, I'm quite sure, that you've already installed
 Then download the zip archive, uncompress it, run make and sudo make install. Here are the corresponding commands:
 
 ```bash
-curl -LO https://github.com/lisanet/PiShrink-macOS/archive/master.zip
+curl -LO https://github.com/lbaitemple/PiShrink-macOS/archive/master.zip
 unzip master
 cd PiShrink-macOS-master
 make
